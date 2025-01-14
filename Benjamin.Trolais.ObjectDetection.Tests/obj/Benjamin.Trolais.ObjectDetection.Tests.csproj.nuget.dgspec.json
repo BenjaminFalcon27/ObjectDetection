@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection.Tests/Benjamin.Trolais.ObjectDetection.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection.Tests/Benjamin.Trolais.ObjectDetection.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection.Tests/Benjamin.Trolais.ObjectDetection.Tests.csproj",
+        "projectName": "Benjamin.Trolais.ObjectDetection.Tests",
+        "projectPath": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection.Tests/Benjamin.Trolais.ObjectDetection.Tests.csproj",
+        "packagesPath": "/home/benji/.nuget/packages/",
+        "outputPath": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/benji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/Benjamin.Trolais.ObjectDetection.csproj": {
+                "projectPath": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/Benjamin.Trolais.ObjectDetection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/Benjamin.Trolais.ObjectDetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/Benjamin.Trolais.ObjectDetection.csproj",
+        "projectName": "Benjamin.Trolais.ObjectDetection",
+        "projectPath": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/Benjamin.Trolais.ObjectDetection.csproj",
+        "packagesPath": "/home/benji/.nuget/packages/",
+        "outputPath": "/home/benji/Documents/Cours/DotnetTROLAIS/Benjamin.Trolais.ObjectDetection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/benji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Microsoft.ML.OnnxTransformer": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benjamin.Trolais.ObjectDetection", "Benjamin.Trolais.ObjectDetection\Benjamin.Trolais.ObjectDetection.csproj", "{DD85CF0C-7169-449E-A59D-20247C00F8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benjamin.Trolais.ObjectDetection.Tests", "Benjamin.Trolais.ObjectDetection.Tests\Benjamin.Trolais.ObjectDetection.Tests.csproj", "{562E4125-BE6E-4B0E-AB76-68651481CE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benjamin.Trolais.ObjectDetection.Console", "Benjamin.Trolais.ObjectDetection.Console\Benjamin.Trolais.ObjectDetection.Console.csproj", "{B47B60AC-5942-4B73-AC0F-11FAAF35BDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benjamin.Trolais.ObjectDetection.WebApi", "Benjamin.Trolais.ObjectDetection.WebApi\Benjamin.Trolais.ObjectDetection.WebApi.csproj", "{779E535E-86FA-4B3E-BB1D-A571449E46B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD85CF0C-7169-449E-A59D-20247C00F8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD85CF0C-7169-449E-A59D-20247C00F8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD85CF0C-7169-449E-A59D-20247C00F8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD85CF0C-7169-449E-A59D-20247C00F8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562E4125-BE6E-4B0E-AB76-68651481CE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562E4125-BE6E-4B0E-AB76-68651481CE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562E4125-BE6E-4B0E-AB76-68651481CE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562E4125-BE6E-4B0E-AB76-68651481CE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47B60AC-5942-4B73-AC0F-11FAAF35BDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47B60AC-5942-4B73-AC0F-11FAAF35BDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47B60AC-5942-4B73-AC0F-11FAAF35BDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47B60AC-5942-4B73-AC0F-11FAAF35BDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779E535E-86FA-4B3E-BB1D-A571449E46B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779E535E-86FA-4B3E-BB1D-A571449E46B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779E535E-86FA-4B3E-BB1D-A571449E46B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779E535E-86FA-4B3E-BB1D-A571449E46B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

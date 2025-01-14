@@ -1,0 +1,6 @@
+@Benjamin.Trolais.ObjectDetection.WebApi_HostAddress = http://localhost:5048
+
+GET {{Benjamin.Trolais.ObjectDetection.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

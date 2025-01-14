@@ -1,0 +1,26 @@
+# .NET Core
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+/bin/
+/obj/
+/packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# .NET Core files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
